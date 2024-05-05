@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Clock 🕰️</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="world-clock.css" />
+  
+  </head>
+  <body>
+    <body cz-shortcut-listen="true">
+    <div class="container">
+      <h1>World Clock 🕛</h1>
+
+      <select id="city">
+        <option value="">Select a city..</option>
+        <option value="current">My current location</option>
+        <option value="Europe/London">London</option>
+        <option value="America/New_York">New York</option>
+        <option value="Pacific/Auckland">Auckland</option>
+      </select>
+
+      <div id="cities">
+        <div class="city" id="los-angeles">
+          <div>
+            <h2>Los Angeles</h2>
+            <div class="date">May	4th 2024</div>
+          </div>
+          <div class="time">7:47:07 <small>AM</small></div>
+        </div>
+        <div class="city" id="los-angeles">
+          <div>
+            <h2>Paris</h2>
+            <div class="date">May	4th 2024</div>
+          </div>
+          <div class="time">4:47:07 <small>PM</small></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      This project was coded with ❤️ by <strong>Camilla Luna-McGoldrick</strong> and is
+      <a href="https://github.com/millamcg1/world-clock" target="_blank">
+        open sourced on GitHub</a>
+    </footer>
+    <script src="world-clock.js"></script>
+  
+
+</body>
+
+
+  
+</body>
+</html>
